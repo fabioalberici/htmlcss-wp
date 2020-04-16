@@ -88,7 +88,7 @@ h2 , p {
 /*fine colonna destra */
 /*inizio colonnacentrale*/
 .colonnacentrale {
-  background: #f4f4f4;
+  background:#f4f4f4;
   width: 46%;
   border-radius: 7px 7px;
   float: right;
@@ -122,4 +122,40 @@ h2 , p {
 }
 .testo-sinistra {
   color: green;
+}
+/*fine colonna-sinistra*/
+/*fine main */
+/*inizio footer */
+.footer {
+  background: #f4f4f4;
+  width: 100%;
+  height: 150px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.testo-footer {
+  text-align: center;
+  color: grey;
+}
+hr {
+  color: grey;
+}
+.facebook {
+  font-size: 35px;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+.instagram {
+  font-size: 35px;
+  position: absolute;
+  top: 45%;
+  left: 48%;
+}
+.github {
+  font-size: 35px;
+  position: absolute;
+  top: 45%;
+  right: 10%;
 }
