@@ -48,3 +48,32 @@ header .menu ul li {
   font-size: 12px;
   margin: 1px;
 }
+/*fine menù */
+/*fine header */
+/*inizio colonna destra */
+.colonnadestra {
+  width: 30%;
+  height: 630px;
+  float: right;
+  margin-top: 10px;
+}
+.primo {
+  background-color: #f4f4f4;
+  border-radius: 7px 7px;
+  width: 100%;
+}
+.secondo {
+  background-color: #f4f4f4;
+  border-radius: 7px 7px;
+  width: 100%;
+  margin-top: 15px;
+}
+.terzo {
+  background-color: #f4f4f4;
+  border-radius: 7px 7px;
+  width: 100%;
+  margin-top: 15px;
+}
+h2 , p {
+  padding:10px;
+}
