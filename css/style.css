@@ -50,6 +50,7 @@ header .menu ul li {
 }
 /*fine menù */
 /*fine header */
+/*inizio main */
 /*inizio colonna destra */
 .colonnadestra {
   width: 30%;
@@ -77,3 +78,13 @@ header .menu ul li {
 h2 , p {
   padding:10px;
 }
+/*fine colonna destra */
+/*inizio colonnacentrale*/
+.colonnacentrale {
+  background: #f4f4f4;
+  width: 38%;
+  border-radius: 7px 7px;
+  float: right;
+  margin: 10px;
+}
+/*fine colonnacentrale*/
