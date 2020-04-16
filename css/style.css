@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*fine reset*/
+body {
+  background-image: url(../img/sfondo.png);
+}
+.contenitore {
+  width: 60%;
+  margin: auto;
+}
+/*inizio header*/
+/*inizio titolo*/
+.titolo {
+  background-image: url(../img/background-header.jpg);
+  height: 220px;
+  color: white;
+  text-align: center;
+  border: 7px solid white;
+  position: relative;
+}
+.testo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+h1 {
+  padding: 10px;
+}
+/*fine titolo*/
+/*inizio menu*/
+.menu {
+  background: grey;
+  height: 50px;
+  width: 100%;
+}
