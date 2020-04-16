@@ -34,6 +34,17 @@ h1 {
 /*inizio menu*/
 .menu {
   background: grey;
-  height: 50px;
   width: 100%;
+}
+header .menu ul {
+  list-style: none;
+  width: 60%;
+  margin: auto;
+}
+header .menu ul li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin: 1px;
 }
