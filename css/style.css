@@ -6,6 +6,7 @@
 /*fine reset*/
 body {
   background-image: url(../img/sfondo.png);
+  font-family: sans-serif;
 }
 .contenitore {
   width: 60%;
@@ -35,25 +36,31 @@ h1 {
 .menu {
   background: grey;
   width: 100%;
+  text-align: center;
 }
 header .menu ul {
   list-style: none;
-  width: 60%;
   margin: auto;
 }
 header .menu ul li {
   display: inline-block;
   color: white;
   text-align: center;
-  font-size: 12px;
-  margin: 1px;
+  font-size: 11px;
+  margin: 0 5px;
+  line-height: 40px;
 }
 /*fine menù */
 /*fine header */
 /*inizio main */
 /*inizio colonna destra */
+main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
 .colonnadestra {
-  width: 30%;
+  width: 25%;
   height: 630px;
   float: right;
   margin-top: 10px;
@@ -82,9 +89,37 @@ h2 , p {
 /*inizio colonnacentrale*/
 .colonnacentrale {
   background: #f4f4f4;
-  width: 38%;
+  width: 46%;
   border-radius: 7px 7px;
   float: right;
-  margin: 10px;
+  margin-right: 22px;
+  margin-top: 10px;
 }
 /*fine colonnacentrale*/
+/*inizio colonnasinistra*/
+.colonna-sinistra {
+  background: #f4f4f4;
+  width: 24%;
+  float: left;
+  border-radius: 7px 7px;
+  margin-top: 10px;
+}
+.testata-colonna::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.icona {
+  color: orange;
+  float: left;
+  padding: 2px;
+  font-size: 30px;
+}
+.titolo-colonna {
+  float: left;
+  padding: 1px;
+  margin-top: 10px;
+}
+.testo-sinistra {
+  color: green;
+}
